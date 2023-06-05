@@ -7,8 +7,9 @@ members = ["crates/blockifier"]
 
 [workspace.dependencies]
 assert_matches = { version = "1.5.0", default-features = false }
-cairo-felt = { git = "https://github.com/tdelabro/cairo-rs.git", branch = "no_std-support", default-features = false }
-cairo-vm = { git = "https://github.com/tdelabro/cairo-rs.git", branch = "no_std-support", default-features = false }
+cairo-felt = { git = "https://github.com/justinFrevert/cairo-rs", branch = "frevert-demonstrate-idea", default-features = false }
+cairo-vm = { git = "https://github.com/justinFrevert/cairo-rs", branch = "frevert-demonstrate-idea", default-features = false }
+
 derive_more = { version = "0.99.17", default-features = false }
 hex = { version = "0.4.3", default-features = false }
 indexmap = { git = "https://github.com/bluss/indexmap", rev = "ca5f848e10c31e80aeaad0720d14aa2f6dd6cfb1", default-features = false }
